@@ -1017,7 +1017,7 @@ GameObject:
   - component: {fileID: 551210139}
   - component: {fileID: 551210138}
   m_Layer: 5
-  m_Name: InfoText
+  m_Name: Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1094,6 +1094,8 @@ GameObject:
   - component: {fileID: 586677937}
   - component: {fileID: 586677939}
   - component: {fileID: 586677938}
+  - component: {fileID: 586677941}
+  - component: {fileID: 586677940}
   m_Layer: 5
   m_Name: Card_Panel
   m_TagString: Untagged
@@ -1163,6 +1165,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586677936}
   m_CullTransparentMesh: 0
+--- !u!114 &586677940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586677936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da2f8b3319197c4cb60476d8b6034cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: {fileID: 59589474}
+  description: {fileID: 551210138}
+  exhibit: {fileID: 1425103282}
+  photo: {fileID: 1783681208}
+--- !u!114 &586677941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586677936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e3ba1724672354aad677c8ee3faf2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startActive: 0
 --- !u!1 &643037409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,7 +2454,7 @@ GameObject:
   - component: {fileID: 1425103283}
   - component: {fileID: 1425103282}
   m_Layer: 5
-  m_Name: AnimalsText
+  m_Name: Exhibit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3069,7 +3100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1bcea4ad94e1bbd45bcdb8a6aeaa9ab9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c323ddf58bf76144196899edda53ca26, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
