@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 52065619}
   - component: {fileID: 52065618}
   m_Layer: 5
-  m_Name: BigCatsButton (2)
+  m_Name: EaglesNestButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,7 +293,7 @@ RectTransform:
   m_Children:
   - {fileID: 473595888}
   m_Father: {fileID: 1463573001}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -342,7 +342,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 52065619}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 586677940}
+        m_MethodName: OpenCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &52065619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,8 +457,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: '[Title]'
 --- !u!222 &59589475
@@ -490,7 +501,7 @@ RectTransform:
   m_Children:
   - {fileID: 1521617641}
   m_Father: {fileID: 1463573001}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -539,7 +550,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 138337317}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 586677940}
+        m_MethodName: OpenCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &138337317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -738,7 +760,7 @@ GameObject:
   - component: {fileID: 288503889}
   - component: {fileID: 288503888}
   m_Layer: 5
-  m_Name: BigCatsButton (5)
+  m_Name: GiantBeastsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -757,7 +779,7 @@ RectTransform:
   m_Children:
   - {fileID: 643037410}
   m_Father: {fileID: 1463573001}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -806,7 +828,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 288503889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 586677940}
+        m_MethodName: OpenCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &288503889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1071,8 +1104,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: '[Info text]'
 --- !u!222 &551210139
@@ -1181,6 +1214,13 @@ MonoBehaviour:
   description: {fileID: 551210138}
   exhibit: {fileID: 1425103282}
   photo: {fileID: 1783681208}
+  cards:
+  - {fileID: 11400000, guid: 178a256e8f12ee743acdc159aefeaf58, type: 2}
+  - {fileID: 11400000, guid: 01d4edca81c9a8343bc2f1d03805286a, type: 2}
+  - {fileID: 11400000, guid: a20a858ad451ddc4590e3a2bbb18af96, type: 2}
+  - {fileID: 11400000, guid: f0bf88ed62ae882449b2bb764883dac9, type: 2}
+  - {fileID: 11400000, guid: 39962e85580eee14e9a78e03a70a651d, type: 2}
+  - {fileID: 11400000, guid: 2ab850fe19eda7c4984b74ab3676b698, type: 2}
 --- !u!114 &586677941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1742,7 +1782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &977098416
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1877,7 +1917,7 @@ GameObject:
   - component: {fileID: 1031890657}
   - component: {fileID: 1031890656}
   m_Layer: 5
-  m_Name: BigCatsButton (3)
+  m_Name: AfricaButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1896,7 +1936,7 @@ RectTransform:
   m_Children:
   - {fileID: 945705030}
   m_Father: {fileID: 1463573001}
-  m_RootOrder: 16
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1945,7 +1985,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1031890657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 586677940}
+        m_MethodName: OpenCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1031890657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2070,7 +2121,7 @@ GameObject:
   - component: {fileID: 1132798127}
   - component: {fileID: 1132798126}
   m_Layer: 5
-  m_Name: BigCatsButton (1)
+  m_Name: BearDenButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2138,7 +2189,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1132798127}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 586677940}
+        m_MethodName: OpenCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1132798127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2256,7 +2318,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1239673898}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 586677936}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1239673898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2508,8 +2581,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: '[Animals text]'
 --- !u!222 &1425103283
@@ -2664,12 +2737,12 @@ RectTransform:
   - {fileID: 2115555000}
   - {fileID: 1996417024}
   - {fileID: 1270682759}
-  - {fileID: 138337315}
-  - {fileID: 1132798125}
-  - {fileID: 52065617}
   - {fileID: 1031890655}
-  - {fileID: 1779713233}
+  - {fileID: 1132798125}
+  - {fileID: 138337315}
+  - {fileID: 52065617}
   - {fileID: 288503887}
+  - {fileID: 1779713233}
   m_Father: {fileID: 1450109230}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2938,7 +3011,7 @@ GameObject:
   - component: {fileID: 1779713235}
   - component: {fileID: 1779713234}
   m_Layer: 5
-  m_Name: BigCatsButton (4)
+  m_Name: MonkeysButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2957,7 +3030,7 @@ RectTransform:
   m_Children:
   - {fileID: 744357443}
   m_Father: {fileID: 1463573001}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3006,7 +3079,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1779713235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 586677940}
+        m_MethodName: OpenCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1779713235
 MonoBehaviour:
   m_ObjectHideFlags: 0

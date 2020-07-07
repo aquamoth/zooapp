@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6764ab628d7b6d4b9ffa2fb6481d684, type: 3}
-  m_Name: Eagles Nest
+  m_Name: MonkeyHabitat
   m_EditorClassIdentifier: 
   Title: 
   Description: 
   Exhibit: 
-  Photo: {fileID: 0}
+  Photo: {fileID: 21300000, guid: 3dd1d2bc0c548de4cbea5308fe3791ec, type: 3}

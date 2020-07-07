@@ -10,13 +10,17 @@ public class CardView : MonoBehaviour
     [SerializeField] private Text exhibit;
     [SerializeField] private Image photo;
 
-    public CardModel card;
+    [SerializeField] private CardModel[] cards;
 
-    private void OnEnable()
+    public void OpenCard(int index)
     {
+        var card = cards[index];
+
         title.text = card.Title;
         description.text = card.Description;
         exhibit.text = card.Exhibit;
         photo.sprite = card.Photo;
+
+        this.gameObject.SetActive(true);
     }
 }
